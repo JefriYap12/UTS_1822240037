@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.bungkus{
+    padding: 2em 0;
+}
+
+.namaRM h3{
+    text-align: center;
+    margin-bottom: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typingAnim 3s steps(27);
+}
+
+@keyframes typingAnim{
+    from {width: 0;}
+    to {width: 200%;}
+}
+
+.imgRumahMakan{
+    text-align: center;
+}
+
+.title{
+    height: 500px;
+    margin-top: 50px;
+}
+
+.title hr{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.title h3{
+    text-align: center;
+    font-size: 28px;
+    border-bottom: 2px crimson;
+}
+
+.menu{
+    float: left;
+    margin: 35px;
+}
+
+.menu p {
+    margin-left: 10px;
+}
+
+.menu img{
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+}
+
+.kontak{
+    margin-top: 50px;
+}
+
+.kontak hr{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.Form{
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 20px;
+    bottom: 20px;
+}
+.Form input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 300px;
+}
+
+.Form button{
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 200px;
+    height: 50px;
+    background-color: gold;
+}
